@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DF2F7ABF-ACCB-4A42-82CD-D4BDFF9EBC0A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Darkvale</RootNamespace>
+    <AssemblyName>Darkvale</AssemblyName>
+    <MonoGamePlatform>DesktopGL</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.DesktopGL.3.5.1.1679\lib\net40\MonoGame.Framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nez, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nez\Nez-PCL\bin\Release\Nez.dll</HintPath>
+    </Reference>
+    <Reference Include="NVorbis, Version=0.8.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.DesktopGL.3.5.1.1679\lib\net40\NVorbis.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="OpenTK, Version=1.1.0.0, Culture=neutral, PublicKeyToken=bad199fe84eb3df4, processorArchitecture=MSIL">
+      <HintPath>..\packages\MonoGame.Framework.DesktopGL.3.5.1.1679\lib\net40\OpenTK.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Colliders\TransitionCollider.cs" />
+    <Compile Include="Components\Player Components\PlayerAnimMovement.cs" />
+    <Compile Include="Components\Scene Components\CameraBounds.cs" />
+    <Compile Include="Entitites\Player.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenes\Base Scene Classes\BaseScene.cs" />
+    <Compile Include="Scenes\Base Scene Classes\IndoorScene.cs" />
+    <Compile Include="Scenes\Base Scene Classes\OutdoorScene.cs" />
+    <Compile Include="Scenes\Menus\TitleMenu.cs" />
+    <Compile Include="Scenes\Transitions\PlayerSpawnInfo.cs" />
+    <Compile Include="Scenes\Transitions\TransitionManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\nez\effects\Bevels.mgfxo" />
+    <None Include="Content\nez\effects\BloomCombine.mgfxo" />
+    <None Include="Content\nez\effects\BloomExtract.mgfxo" />
+    <None Include="Content\nez\effects\Crosshatch.mgfxo" />
+    <None Include="Content\nez\effects\DeferredLighting.mgfxo" />
+    <None Include="Content\nez\effects\DeferredSprite.mgfxo" />
+    <None Include="Content\nez\effects\Dots.mgfxo" />
+    <None Include="Content\nez\effects\ForwardLighting.mgfxo" />
+    <None Include="Content\nez\effects\GaussianBlur.mgfxo" />
+    <None Include="Content\nez\effects\Grayscale.mgfxo" />
+    <None Include="Content\nez\effects\HeatDistortion.mgfxo" />
+    <None Include="Content\nez\effects\Invert.mgfxo" />
+    <None Include="Content\nez\effects\Letterbox.mgfxo" />
+    <None Include="Content\nez\effects\MultiTexture.mgfxo" />
+    <None Include="Content\nez\effects\MultiTextureOverlay.mgfxo" />
+    <None Include="Content\nez\effects\Noise.mgfxo" />
+    <None Include="Content\nez\effects\PixelGlitch.mgfxo" />
+    <None Include="Content\nez\effects\Reflection.mgfxo" />
+    <None Include="Content\nez\effects\Scanlines.mgfxo" />
+    <None Include="Content\nez\effects\Sepia.mgfxo" />
+    <Content Include="Content\nez\effects\SpriteAlphaTest.mgfxo">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\nez\effects\SpriteBlinkEffect.mgfxo" />
+    <None Include="Content\nez\effects\SpriteEffect.mgfxo" />
+    <None Include="Content\nez\effects\SpriteLightMultiply.mgfxo" />
+    <None Include="Content\nez\effects\SpriteLines.mgfxo" />
+    <None Include="Content\nez\effects\transitions\Squares.mgfxo" />
+    <None Include="Content\nez\effects\transitions\TextureWipe.mgfxo" />
+    <None Include="Content\nez\effects\transitions\Wind.mgfxo" />
+    <None Include="Content\nez\effects\Twist.mgfxo" />
+    <None Include="Content\nez\effects\Vignette.mgfxo" />
+    <Content Include="Content\nez\NezDefaultBMFont.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Content\nez\textures\gooCursor.xnb" />
+    <None Include="Content\nez\textures\heatDistortionNoise.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\angular.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\crissCross.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\diagonalDistort.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\horizontal.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\noise.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\pokemon.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\sawTooth.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\spiral.xnb" />
+    <None Include="Content\nez\textures\textureWipeTransition\wink.xnb" />
+    <None Include="Icon.png" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OpenTK.dll.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <ItemGroup />
+</Project>

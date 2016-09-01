@@ -1,0 +1,64 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:HiDef
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:../../Nez/Nez.PipelineImporter/bin/Debug/Nez.PipelineImporter.dll
+/reference:../../Nez/Nez.PipelineImporter/bin/Debug/Newtonsoft.Json.dll
+/reference:../../Nez/Nez.PipelineImporter/bin/Debug/Ionic.ZLib.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin Spritesheets/LinkRun.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Spritesheets/LinkRun.png
+
+#begin Maps/Game Boy Advance - The Legend of Zelda The Minish Cap - Hyrule Town.gif
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Maps/Game Boy Advance - The Legend of Zelda The Minish Cap - Hyrule Town.gif
+
+#begin Maps/Game Boy Advance - The Legend of Zelda The Minish Cap - Royal Crypt.gif
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Maps/Game Boy Advance - The Legend of Zelda The Minish Cap - Royal Crypt.gif
+
+#begin Maps/Indoors1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Maps/Indoors1.tmx
+
+#begin Maps/Outdoors1.tmx
+/importer:TiledMapImporter
+/processor:TiledMapProcessor
+/build:Maps/Outdoors1.tmx
+

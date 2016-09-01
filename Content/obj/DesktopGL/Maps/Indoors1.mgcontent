@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>D:/MyCode/Darkvale Project/Darkvale/Darkvale/Content/Maps/Indoors1.tmx</SourceFile>
+  <SourceTime>2016-08-31T20:56:54.7315102-04:00</SourceTime>
+  <DestFile>D:/MyCode/Darkvale Project/Darkvale/Darkvale/Content/bin/DesktopGL/Maps/Indoors1.xnb</DestFile>
+  <DestTime>2016-08-31T21:00:08.8951242-04:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2016-08-31T11:45:59.0337155-04:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2016-08-31T11:45:59.0337155-04:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

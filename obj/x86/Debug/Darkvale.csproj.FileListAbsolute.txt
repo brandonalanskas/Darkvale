@@ -1,0 +1,36 @@
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\OpenTK.dll.config
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\MonoGame.Framework.dll
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Nez.dll
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\NVorbis.dll
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\OpenTK.dll
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\MonoGame.Framework.xml
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Nez.pdb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\obj\x86\Debug\Darkvale.csprojResolveAssemblyReference.cache
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Content\Maps\ZeldaDungeonTest.xnb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Darkvale.exe
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Darkvale.pdb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\obj\x86\Debug\Darkvale.exe
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\obj\x86\Debug\Darkvale.pdb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Content\Maps\Game Boy Advance - The Legend of Zelda The Minish Cap - Royal Crypt.xnb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Content\Spritesheets\LinkRun.xnb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Content\nez\NezDefaultBMFont.xnb
+D:\MyCode\Darkvale Project\Darkvale\ProjectTemplate\bin\Debug\Content\nez\effects\SpriteAlphaTest.mgfxo
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\obj\x86\Debug\Darkvale.exe
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\obj\x86\Debug\Darkvale.pdb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\nez\effects\SpriteAlphaTest.mgfxo
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\nez\NezDefaultBMFont.xnb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\OpenTK.dll.config
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\Maps\Game Boy Advance - The Legend of Zelda The Minish Cap - Royal Crypt.xnb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\Spritesheets\LinkRun.xnb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Darkvale.exe
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Darkvale.pdb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\MonoGame.Framework.dll
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Nez.dll
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\NVorbis.dll
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\OpenTK.dll
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\MonoGame.Framework.xml
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Nez.pdb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\obj\x86\Debug\Darkvale.csprojResolveAssemblyReference.cache
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\Maps\Game Boy Advance - The Legend of Zelda The Minish Cap - Hyrule Town.xnb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\Maps\Indoors1.xnb
+D:\MyCode\Darkvale Project\Darkvale\Darkvale\bin\Debug\Content\Maps\Outdoors1.xnb
